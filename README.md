@@ -9,7 +9,7 @@ A multi-tenant platform for the whole life of an organisation's documents: captu
 | **What it is** | Document, records and correspondence management as a modular monolith |
 | **Stack** | TypeScript, Express 5, Next.js 16 (React 19), PostgreSQL, Redis and BullMQ, Socket.IO, MinIO, Meilisearch |
 | **Quality** | 1,639 automated tests in 116 suites (test report generated and checked in CI), Playwright end-to-end specs, live verifiers that run against a real database |
-| **Live demo** | [Document platform](https://saas-dms.vercel.app/dms), signed in through the [identity portal](https://saas-portal-iota.vercel.app/sso/portal) |
+| **Live demo** | [Open it from the portfolio](https://dawitbkportfolio.vercel.app/#demos), which shows whether the demo server is online and has the sandbox login |
 | **My role** | Architect and lead engineer: requirements, design, build, deployment and verification |
 
 ## Try it live
@@ -18,7 +18,7 @@ A multi-tenant platform for the whole life of an organisation's documents: captu
 2. Sign in at the [identity portal](https://saas-portal-iota.vercel.app/sso/portal) and open **Document Management**. You are signed in through single sign-on.
 3. Try a document: open its tabs for versions, workflow, audit trail and governance.
 
-The demo runs on a personal machine behind a tunnel, so it is sometimes offline. The data is synthetic. The AI features are switched off for the demo tenant on purpose, because sending text to a model provider is a per-tenant decision.
+The demo runs on a server of my own, so it is sometimes offline (a restart, a power cut or maintenance). The portfolio shows its status and, when it is offline, how to reach me. The data is synthetic. The AI features are switched off for the demo tenant on purpose, because sending text to a model provider is a per-tenant decision.
 
 ## Screenshots
 
